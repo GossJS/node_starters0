@@ -7,7 +7,7 @@ So now we introduce an updated Node app creation lifecycle
 
 `git clone https://github.com/GossJS/node_starters0.git x && cd x`
 
-`yarn install`
+`yarn`
 
 `atom .`
 
