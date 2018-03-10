@@ -15,5 +15,12 @@ So now we introduce an updated Node app creation lifecycle
 
 `yarn start`
 
+---
+Ветки simple, json и event соответствуют заданию http://kodaktor.ru/pract-II-lab-t2-json.pdf
 
+simple - шаги 1..6
+json - шаг 7..8
+event - шаг 9..
+
+---
 Следующий репозиторий: https://github.com/GossJS/node_starters1
