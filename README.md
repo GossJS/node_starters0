@@ -17,4 +17,10 @@ So now we introduce an updated Node app creation lifecycle
 
 Для вывода разницы между этой ветвью и предыдущей:
 
-git diff json..event
+`git diff json..event`
+
+или конкретно для файла со сценарием:
+
+`git diff json event -- index.js`
+
+![alt scheme](git-checkout.png "Разница в ветвях")
