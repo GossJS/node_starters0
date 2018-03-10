@@ -15,6 +15,5 @@ So now we introduce an updated Node app creation lifecycle
 
 `yarn start`
 
-https://www.webpackbin.com/bins/-KuZOEOPlJcOdJMLki54
 
 Следующий репозиторий: https://github.com/GossJS/node_starters1
