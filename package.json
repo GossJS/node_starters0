@@ -1,18 +1,21 @@
 {
-  "scripts": {
-    "start": "nodemon --watch"
+  "scripts" : {
+    "start": "nodemon"
   },
-  "name": "node_starters0",
+  "name": "20180310_052341",
   "version": "1.0.0",
-  "main": "index.mjs",
+  "main": "index.js",
   "repository": "https://github.com/GossJS/node_starters0.git",
-  "author": "gossoudarev <igossoudarev@herzen.spb.ru>",
   "license": "MIT",
-  "main": "index.mjs",
-  "engines" : {
-    "node" : ">=8.5.0"
-  },
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "moment": "^2.21.0"
   }
 }
