@@ -5,7 +5,7 @@ In late Sep 2017 they gave us experimental support of native modules in Node 8.5
 
 So now we introduce an updated Node app creation lifecycle
 
-`mkdir $(date +%Y%m%d_%H%M%S) && cd $_ && git clone -b simple https://github.com/GossJS/node_starters0.git .`
+`mkdir $(date +%Y%m%d_%H%M%S) && cd $_ && git clone -b event https://github.com/GossJS/node_starters0.git .`
 
 `yarn`
 
@@ -15,5 +15,6 @@ So now we introduce an updated Node app creation lifecycle
 
 `yarn start`
 
+Для вывода разницы между этой ветвью и предыдущей:
 
-Следующий репозиторий: https://github.com/GossJS/node_starters1
+git diff json..event
