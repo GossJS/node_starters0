@@ -1,15 +1,15 @@
 # node_starters0
 
 
-`mkdir $(date +%Y%m%d_%H%M%S) && cd $_ && git clone -b event https://github.com/GossJS/node_starters0.git .`
-
-`yarn`
-
-`npm info eslint-config-airbnb@latest peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add --dev eslint-config-airbnb@latest`
+`mkdir $(date +%Y%m%d_%H%M%S) && cd $_ && git clone -b event https://github.com/GossJS/node_starters0.git . && yarn`
 
 `atom .`
 
 `yarn start`
+
+Для переключения: `git checkout json` или `git checkout simple`
+
+Для создания новой ветви: `git checkout -b new`
 
 Для вывода разницы между этой ветвью и предыдущей:
 
