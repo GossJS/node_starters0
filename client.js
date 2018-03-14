@@ -19,7 +19,7 @@ const req = http.request(options, (res) => {
   console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
   res.setEncoding('utf8');
   // Получение данных по фрагментам
-  res.on('data', chunk => console.log(`STATUS: ${chunk}`));
+  res.on('data', chunk => console.log(`DATA: ${chunk}`));
   // Завершение ответа
   res.on('end', () => console.log('В ответе больше нет данных!'));
 });
