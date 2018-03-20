@@ -24,3 +24,12 @@ event - шаг 9..
 
 ---
 Следующий репозиторий: https://github.com/GossJS/node_starters1
+
+Установка node
+
+https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+
+```
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
