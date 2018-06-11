@@ -45,3 +45,6 @@ mkdir $(date +%Y%m%d_%H%M%S) && cd $_ && yarn init -y && atom .
 https://www.youtube.com/watch?v=lGk3vCZobM0
 
 https://github.com/GossJS/js_dependencies_intro1/tree/master
+
+Простой эхо-сервер с сокетом: https://kodaktor.ru/g/sock
+
